@@ -6,14 +6,14 @@ Compatible with vanilla Assetto Corsa and enhanced with features for **Custom Sh
 
 ---
 
-## ?? What's New in v2
+##  What's New in v2
 
 * **RPM Arc Ring & Shift Indicator**:
-  * Sweeps a 270° proportional arc around the wheel gauge (from bottom-left 225° clockwise to bottom-right 315°).
+  * Sweeps a 270Â° proportional arc around the wheel gauge (from bottom-left 225Â° clockwise to bottom-right 315Â°).
   * Color-coded RPM zones:
-    * **0% – 75%**: Green (Safe operating range)
-    * **75% – 85%**: Green › Yellow transition (Approaching shift point)
-    * **85% – 100%**: Yellow › Red transition (Shift zone)
+    * **0% â€“ 75%**: Green (Safe operating range)
+    * **75% â€“ 85%**: Green â€º Yellow transition (Approaching shift point)
+    * **85% â€“ 100%**: Yellow â€º Red transition (Shift zone)
   * Segment resolution configurable from **12 to 96 segments** in the settings.
 * **Rev Limiter / Shift Warning**:
   * Gear display snaps to **bright red** when engine RPM reaches **? 92% of max RPM** to clearly signal gear shifts.
@@ -29,7 +29,7 @@ Compatible with vanilla Assetto Corsa and enhanced with features for **Custom Sh
 
 ---
 
-## ?? Core Features
+##  Core Features
 
 * **Real-time Live Traces**:
   * Throttle
@@ -50,7 +50,7 @@ Compatible with vanilla Assetto Corsa and enhanced with features for **Custom Sh
 
 ---
 
-## ?? Installation
+##  Installation
 
 ### Option 1: Drag & Drop with Content Manager (Recommended)
 1. Drag and drop `telemetry_overlay_v2.zip` directly onto the Content Manager window.
@@ -67,7 +67,7 @@ Compatible with vanilla Assetto Corsa and enhanced with features for **Custom Sh
 
 ---
 
-## ?? Rebuilding the Zip Package
+##  Rebuilding the Zip Package
 
 To rebuild the release archive after making code modifications:
 
@@ -80,7 +80,7 @@ To rebuild the release archive after making code modifications:
 
 ---
 
-## ?? Configuration
+##  Configuration
 
 Settings can be adjusted directly in-game by clicking the left side of the telemetry window, or by editing:
 ```
@@ -90,8 +90,8 @@ apps/python/telemetry_overlay_v2/config.ini
 ### Wheel & RPM Settings
 | Setting | Default | Description |
 |---|---|---|
-| `show_rpm_ring` | `True` | Enables the 270° RPM arc ring around the wheel |
-| `rpm_ring_segments` | `48` | Number of segments rendered along the arc (12–96) |
+| `show_rpm_ring` | `True` | Enables the 270Â° RPM arc ring around the wheel |
+| `rpm_ring_segments` | `48` | Number of segments rendered along the arc (12â€“96) |
 | `wheel_show_gear` | `True` | Displays current gear in the center (turns red at ?92% max RPM) |
 | `wheel_show_speed` | `True` | Displays vehicle speed below the gear |
 | `metric` | `True` | `True` for km/h, `False` for mph |

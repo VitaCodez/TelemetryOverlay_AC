@@ -1,0 +1,6 @@
+__pycache__/
+temp/
+*.zip
+!telemetry_overlay_v2.zip
+config.ini
+RELEASE.txt
